@@ -9,12 +9,22 @@
     padding: 3% 80% 3%;
     margin-left: -30%;
 
+    @media @phone {
+        margin: 0;
+        width: 100vw;
+        padding: 0 0 5%;
+    }
+
     ul{
         display: flex;
         justify-content: space-between;
         align-content: center;
         align-items: center;
         width: 650px;
+
+        @media @phone {
+            width: 80vw;
+        }
     }
     
     h1{
